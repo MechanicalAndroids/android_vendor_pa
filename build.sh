@@ -71,7 +71,7 @@ if [ $ARCH = "64" ]; then
   # Get start time
   res1=$(date +%s.%N)
 
-  echo -e "${cya}Building ${bldcya}AOSPA $VERSION for $DEVICE ${txtrst}";
+  echo -e "${cya}Building ${bldcya}MAOSPA $VERSION for $DEVICE ${txtrst}";
   echo -e "${bldgrn}Start time: $(date) ${txtrst}"
 
   # Decide what command to execute
@@ -98,13 +98,6 @@ if [ $ARCH = "64" ]; then
   #Generate Changelog
   export CHANGELOG=true
 
-  # Fetch latest sources
-  if [ "$SYNC" == "true" ]; then
-          echo -e ""
-          echo -e "${bldblu}Fetching latest sources${txtrst}"
-          repo sync -j"$THREADS"
-          echo -e ""
-  fi
 
   if [ ! -r "${DIR}/out/versions_checked.mk" ] && [ -n "$(java -version 2>&1 | grep -i openjdk)" ]; then
           echo -e "${bldcya}Your java version still not checked and is candidate to fail, masquerading.${txtrst}"
