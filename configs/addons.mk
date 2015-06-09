@@ -10,8 +10,8 @@ PRODUCT_COPY_FILES += \
 
 #Nova
 PRODUCT_COPY_FILES += \
-	vendor/pa/prebuilt/apk/NovaLauncher.apk:system/priv-app/NovaLauncher.apk \
+	vendor/pa/prebuilt/apk/NovaLauncher.apk:system/priv-app/NovaLauncher/NovaLauncher.apk \
 
 #adaway
 PRODUCT_COPY_FILES += \
-	vendor/pa/prebuilt/apk/org.adaway_52.apk:system/priv-app/org.adaway_52.apk \
+	vendor/pa/prebuilt/apk/org.adaway_52.apk:system/priv-app/org.adaway_52/org.adaway_52.apk \
