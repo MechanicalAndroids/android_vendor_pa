@@ -16,3 +16,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/pa/prebuilt/apk/org.adaway_52.apk:system/priv-app/org.adaway_52/org.adaway_52.apk \
 
+#apollo
+PRODUCT_COPY_FILES += \
+	vendor/pa/prebuilt/apk/Apollo1.3.4.apk:system/app/apollo/Apollo1.3.4.apk
