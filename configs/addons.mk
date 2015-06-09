@@ -15,3 +15,4 @@ PRODUCT_COPY_FILES += \
 #adaway
 PRODUCT_COPY_FILES += \
 	vendor/pa/prebuilt/apk/org.adaway_52.apk:system/priv-app/org.adaway_52/org.adaway_52.apk \
+
