@@ -43,7 +43,6 @@ PRODUCT_PACKAGES += \
 # Extra packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
-    Eleven \
     AudioFX
 
 # Extra tools
