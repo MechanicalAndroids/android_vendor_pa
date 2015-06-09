@@ -8,3 +8,10 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/pa/prebuilt/etc/soundfx/libv4a_fx_ics.so:system/lib/soundfx/libv4a_fx_ics.so \
 
+#Nova
+PRODUCT_COPY_FILES += \
+	vendor/pa/prebuilt/apk/NovaLauncher.apk:system/priv-app/NovaLauncher.apk \
+
+#adaway
+PRODUCT_COPY_FILES += \
+	vendor/pa/prebuilt/apk/org.adaway_52.apk:system/priv-app/org.adaway_52.apk \
